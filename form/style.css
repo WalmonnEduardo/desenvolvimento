@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100dvh;
+    width: 100dvw;
+    background-color: black;
+}
+main {
+    height: 100dvh;
+    width: 100dvw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    height: 30dvh;
+    width: 40dvw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.enviar{
+    background-color: blue;
+    display: block;
+    width: 5dvw;
+    border-radius: 10px;
+}
+.usuario, .senha{
+    display: block;
+    width: 300px;
+    border-radius: 100px;
+    background-color: aqua;
+}
+/******************************/
+/* Base da página              */
+/******************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagina2{
+    height: 100vh; /* Corrigido para vh */
+    width: 100vw;  /* Corrigido para vw */
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 100vh; /* Corrigido para vh */
+    width: 100vw;  /* Corrigido para vw */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart {
+    position: relative;
+    height: 400px; /* Ajustado para melhor proporção */
+    width: 240px;  /* Ajustado para melhor proporção */
+    background-color: red;
+    border-radius: 120px 120px 0 0; /* Ajustado para melhor proporção */
+    transform: rotate(45deg);
+}
+
+.heart::before {
+    content: " ";
+    position: absolute;
+    height: 400px; /* Ajustado para melhor proporção */
+    width: 240px;  /* Ajustado para melhor proporção */
+    background-color: red;
+    border-radius: 120px 120px 0 0; /* Ajustado para melhor proporção */
+    transform: rotate(-90deg);
+    top: 80px;
+    left: -80px;
+}
+
+.amor {
+    position: absolute;
+    left: 70dvw;
+    color: red;
+    text-align: right; /* Ajustado para melhor alinhamento */
+}
